@@ -10,4 +10,10 @@ public class PlayerScriptableObject : ScriptableObject
     public int health = 100;
     public int lives = 5;
     public int pressCount;
+
+    public void IncreaseHealth( int amount )
+    {
+        health += amount;
+
+    }
 }
